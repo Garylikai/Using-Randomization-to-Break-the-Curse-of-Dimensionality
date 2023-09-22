@@ -1,0 +1,5 @@
+\frametitle{A Comment on ``Using Randomization to Break the Curse of Dimensionality''}
+
+Bray showed that Rust's approach can avoid the ``needle in the haystack problem'' and therefore break the curse of dimensionality only when the problem can be recast so that all but a vanishingly small fraction of state variables behave like history-independent uniform random variables. \\~\
+
+More precisely, only around $\ln(d)$ out of $d$ state variables may meaningfully depend on past states and actions. The other state variables must resemble exogenous iid shocks. Bray defined such a sequence of dynamic programs to be nearly memoryless.
